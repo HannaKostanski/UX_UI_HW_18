@@ -68,7 +68,7 @@ h1 {
 
 .hero_section {
     height: 650px;
-    background-image: url(/images/background.png);
+    background-image: url(images/background.png);
     background-size: 100%;
     background-position: left;
     display: flex;
