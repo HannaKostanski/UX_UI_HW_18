@@ -68,7 +68,7 @@ h1 {
 
 #hero {
     height: 650px;
-    background-image: url(/images/background\ pattern.png);
+    background-image: url(/images/background.png);
     background-size: 100%;
     background-position: left;
     display: flex;
