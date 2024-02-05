@@ -228,7 +228,7 @@ button:hover {
   .image2 {
     width: 600px; 
     height: 300px; 
-       background-image: url(/images/bathroom\ finder.png); 
+       background-image: url(/css/bathroom\ finder.png); 
     background-size: cover;
     background-position: center;
     display: none;
