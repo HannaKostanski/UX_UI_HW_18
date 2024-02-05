@@ -58,7 +58,7 @@ button:hover {
 
 .main-image {
     position: relative;
-    background: url(/images/background.png) no-repeat center;
+    background: url('/images/background.png') no-repeat center;
     background-size: cover;
     height: 500px;
     overflow: hidden;
@@ -95,27 +95,29 @@ button:hover {
 
 
 /*About Section*/
-.wrapper {   
+.wrapper {
     justify-content: center;
     align-items: center;
-    margin: 40px auto;
+    margin: 60px auto;
     width: 80%;
-    
+    margin-bottom: 175px;
+
 
 }
 
-img {
-    max-width: 500px;
+.wrapper img {
+    max-width: 400px;
     float: left;
     margin-right: 25px;
-   
+    
+
 
 }
 
 .text-box {
     padding: 70px 0;
     color: #5D574E;
-        font-family: Raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
 
 }
 
@@ -123,11 +125,159 @@ img {
     font-size: 36px;
     font-weight: 600;
     line-height: 1.75;
+
+}
+
+.text-box p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.75;
     
 }
 
-.text-box p { 
-    font-size: 18px;
-    font-weight: 400;
-    line-height:1.75;
+
+
+
+
+
+
+/*Skills Section*/
+
+
+
+.package h2 {
+    font-family: "Raleway", sans-serif;
+    color: #5D574E;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.75;
+    text-align: center;
+    padding: 40px;
+
 }
+
+.package h3 {
+    font-family: "Raleway", sans-serif;
+    color: rgb(93, 87, 78, .8);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.75;
+    text-align: center;
+}
+
+
+.package {
+    height: 500px;
+    background-color: rgb(237, 235, 230, 0.7);
+
+
+}
+
+.box img {
+    max-width: 200px;
+}
+
+.package .box-package {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    align-items: center;
+}
+
+
+.package .box-package .box {
+    text-align: center;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Media Queries - About*/
+
+
+
+@media screen and (max-width: 768px) {
+
+    .wrapper img {
+        width: 300px;
+        margin-top: -100px
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .text-box p {
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: -175px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .text-box h2 {
+        font-size: 32px;
+        text-align: center;
+      
+    }
+}
+
+
+
+/*Media Queries - Skills*/
+
+@media screen and (max-width: 768px) {
+    .package {
+        height: 875px;
+    }}
+
+
+    @media screen and (max-width: 768px) {
+        .package .box-package {
+            grid-template-columns: 1fr;
+            ;
+            justify-content: space-between;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .box img {
+
+            justify-content: space-between;
+            width: 150px;
+
+        }
+    }
+
+
+    @media screen and (max-width: 768px) {
+        .package h2 {
+            font-size: 32px;
+            margin-bottom: -30px;
+            margin-top: -30px;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .box h3 {
+
+            font-size: 24px;
+            padding-top: 10px;
+            padding-bottom: 20px;
+
+        }
+    } 
