@@ -410,8 +410,8 @@ footer {
     }
     .text a {
         font-size: 30px;
-        color: #FF7E7E;
-        text-decoration:underline ;
+        color: #5D574E;
+        text-decoration:none ;
     }}
 
 
@@ -427,11 +427,11 @@ footer {
         .textFooter {
             display: inline-block;
             margin: 0 auto;
-            padding: 10px; /* Add padding for better spacing */
+            padding: 10px; 
         }
     
         .textFooter {
-            width: 100%; /* Full width for smaller screens */
+            width: 100%; 
         }
     }
     
