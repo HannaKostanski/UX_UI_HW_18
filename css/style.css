@@ -56,7 +56,13 @@ button:hover {
 
 /*Hero Section*/
 
-
+.main-image {
+    position: relative;
+    background: url('/images/background.png') no-repeat center;
+    background-size: cover;
+    height: 500px;
+    overflow: hidden;
+}
 
 .container {
     position: relative;
@@ -186,15 +192,21 @@ button:hover {
 }
 
 
+
 /*Case Study Section*/
 
 .case-study {
     display: flex;
     align-items: center;
     padding: 60px;
+    padding-bottom: 120px;
     cursor: pointer;
+    position: relative;
+      transition: margin-left 0.5s ease;
   }
   
+ 
+ 
   .text {
     flex: 1;
     font-family: 'raleway', sans-serif;
@@ -204,11 +216,13 @@ button:hover {
     line-height: 1.75;
   }
 
+  
   .text p {
     font-size: 20px;
     color: #5D574E;
   }
 
+  .text a { font-size: 36px; color: #FF7E7E;}
   
   .image {
     width: 585px; 
@@ -228,6 +242,10 @@ button:hover {
     margin-right: 8%;
   }
 
+  .case-study:hover {
+    margin-left: 120px; 
+   
+  }
   .case-study:hover .image {
     display: block;
   }
@@ -237,7 +255,7 @@ button:hover {
     display: block;
   }
 
-
+  .text a:hover { font-size: 36px; color: #5D574E;}
 
 
 /*Footer section*/
@@ -245,7 +263,8 @@ footer {
     
     background-color: rgb(93, 87, 78, 60%);
     height: 350px;
-    margin-top:auto;
+    padding-top: 60px;
+    padding-left: 120pxd
 
 
 
@@ -266,8 +285,9 @@ footer {
 .textFooter {
     width: 40%;
     margin-top: -20px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -40px;
+    color: #FF7E7E;
+    font-family: 'raleway', sans-serif;
     font-size: 14px;
 }
 
